@@ -48,7 +48,7 @@ resource "aws_instance" "web" {
 
     root_block_device {
         encrypted = false
-        volume_size = 40
+        volume_size = 50
         volume_type = "standard"
         tags = local.default_tags
     }
